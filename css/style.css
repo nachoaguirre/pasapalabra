@@ -1,0 +1,177 @@
+html, body { padding: 0; margin: 0; width: 100%; height: 100%;   }
+body { background-image: url("../img/bg.png"); background-size: cover; background-position: right bottom; font-family: 'PF BeauSans Pro'; font-weight: normal; font-style: normal; color:#8d8d8e; }
+
+
+#logo img { position: absolute; top:6%; left:3%; z-index:9999;}
+.boton { background: #c2d500; border-radius:6vh; text-align: center; }
+.screen { width:100%; height:100%; overflow: hidden; margin: 0; padding: 0; }
+
+
+/* 
+	1. INICIO
+*/
+
+#video1 { position: absolute; top:0; left:0; width:100%; height:100%;  z-index:-1; object-fit: fill; }
+.titulo_1 { position: absolute; top:37%; left:8%; font-size:6.299vw; color: #b8b9b9; z-index: 1000; }
+	.titulo_1_bold { font-weight: bold; display: inline; }
+	.titulo_1_light { font-weight: 300; display: inline; }
+.boton_1 { color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:55%; left: 11%;  z-index: 1000; }
+.boton_1_instrucciones { background: #6EB761; color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:55%; left: 29%;  z-index: 1000; }
+
+
+
+
+/* 
+	1. INSTRUCCIONES
+*/
+
+
+.titulo_1_instrucciones { position: absolute; top:20%; left:5%; font-size:7vw; color:#6EB761; }
+.titulo_1_instrucciones_2 { position: absolute; top:41%; left:5%; font-size:2.002vw; width: 46%; text-align: justify; color: #8d8d8d; }
+.titulo_1_instrucciones_2 span { font-weight: bold; }
+.boton_1_instrucciones_comenzar { background: #6EB761; color:#fff; font-size:2.8vw; padding:0 3%; position: absolute; top:67%; left: 5%;  z-index: 1000; }
+
+
+/* 
+	2. SELECCIONAR LETRA
+*/
+
+#video2 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;  }
+
+.titulo_2 { position: absolute; top:48%; left:25%; font-size:2.002vw; width: 25%; text-align: center; color: #8d8d8d; }
+      
+.letras { position: absolute; margin:0; padding:0; left:15%; top:10%; width:46.2%; height:89%; list-style: none; }
+
+
+.letra { border-radius: 50%; background-color:#007433; position: absolute; width:9.195%; height:9.195%; text-align: center; color:#fff; font-size:1.514vw; font-weight: bold; }
+.letra:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+
+.letra_correcta:before, .letra_incorrecta:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+.letra_correcta {border: 4px solid #c2d500;  opacity: 0.6; background: #0a5628; width:9.195%; height:9.195%; }
+.letra_incorrecta {border: 4px solid #eb4c4c;  opacity: 0.6; background: #0a5628; width:9.195%; height:9.195%; }
+
+/*
+.letra { position: absolute; width:9.195%; font-size:1.514vw; font-weight: bold; }
+.letra:after { content: ""; display: block; width: 100%; height:0; padding-bottom: 100%; background-color:#007433;  border-radius: 50%; }
+.letra div { float:left; width:100%; padding-top:9.195%; line-height:2.5em; text-align:center; color:white; }
+*/
+
+.letra_a { left: 50%;    top: 0; }
+.letra_b { left: 61%;    top: 2.6%; }
+.letra_c { left: 71%;    top: 7.8%; }
+.letra_d { left: 80%;    top: 15.4%; }
+.letra_e { left: 87.4%;  top: 24.3%; }
+.letra_f { left: 92%;    top: 35.2%; }
+.letra_g { left: 92%;    top: 47%; }
+.letra_h { left: 89%;    top: 58%; }
+.letra_i { left: 84%;    top: 68%; }
+.letra_j { left: 77%;    top: 77%; }
+.letra_k { left: 68%;    top: 84%; }
+.letra_l { left: 57.6%;  top: 88%; }
+.letra_m { left: 46.5%;  top: 90.3%; }
+.letra_n { left: 35.5%;  top: 89%; }
+.letra_o { left: 24.7%;  top: 85%; }
+.letra_p { left: 15%;    top: 78.8%; }
+.letra_r { left: 7.7%;   top: 70.1%; }
+.letra_s { left: 2.4%;   top: 60%; }
+.letra_t { left: 0;    top: 49%; }
+.letra_u { left: 0.5%;   top: 37.7%; }
+.letra_v { left: 3.7%;   top: 26.8%; }
+.letra_w { left: 9%;     top: 16.5%; }
+.letra_x { left: 17.5%;  top: 8.4%; }
+.letra_y { left: 27.8%;  top: 2.4%; }
+.letra_z { left: 38.7%;  top: 0%; }
+
+
+
+.turnos_info:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+.turnos_info { color:#fff; font-size:2.344vw; padding:0 3%; position: absolute; top:10%; right:5%; height:9%; /* line-height: 103px; */  }
+
+
+
+
+/* 
+	3. LETRA... SELECCIONAR OPCION
+*/
+#video3 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;  }
+.titulo_3 {  position: absolute; top:15%; left:25%; font-size:6.836vw; color:#b8cb00;  }
+
+.pregunta_3 { position: absolute; top:33%; left:12%; font-size:2.441vw; color:#9a9a9a; text-align: center; width:48%; }
+
+.opcion_1 { position: absolute; top:56%; left:12%; color:#b7c900; font-size:2.100vw; }
+.opcion_2 { position: absolute; top:64%; left:12%; color:#b7c900; font-size:2.100vw; }
+.opcion_3 { position: absolute; top:72%; left:12%; color:#b7c900; font-size:2.100vw; }
+
+.opcion_radio { display:inline-block; width: 55px; height: 55px; text-align: center; border-radius: 50%;   }
+.opcion_radio:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+/* .opcion_radio { display:inline-block; width: 55px; height: 55px; text-align: center; line-height: 54px; border-radius: 50%;   } */
+
+.opcion_radio:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+.opcion_seleccionada { background: #007433; color: #ffffff; }
+
+
+
+
+/* 
+	4. RESPUESTA CORRECTA
+*/
+#video4 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;   }
+.titulo_4_a {  position: absolute; top:28%; left:12%; font-size:6.836vw; color:#b7c900; font-weight: 600;  }
+.titulo_4_b {  position: absolute; top:45%; left:12%; font-size:4.346vw; color:#b7c900; font-weight: 600;  }
+.boton_4 {          color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:59%; left:19%;  }
+.boton_4_terminar { color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:59%; left:19%;  }
+
+
+/* 
+	5. RESPUESTA INCORRECTA
+*/
+#video5 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;   }
+.titulo_5 {  position: absolute; top:25%; left:13%; font-size:5.859vw; color:#b7c900; font-weight: 600; text-align: center; line-height: 13vh; width:35%;  }
+.boton_5 {          color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:59%; left:14%;  }
+.boton_5_terminar { color:#fff; font-size:3.760vw; padding:0 3%; position: absolute; top:59%; left:14%;  }
+
+
+
+/* 
+	6. GANASTE
+*/
+#video6 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;   }
+.titulo_6 {  position: absolute; width:46%; top:31%; left:12%; font-size:6.836vw; color:#b7c900; text-align: center; line-height:13vh; font-weight: 600;  }
+.titulo_6_c {  position: absolute; top:64%; left:18%; font-size:2.441vw; color:#ccc; font-weight: 600; }
+
+
+/* 
+	7. SIGUE PARTICIPANDP
+*/
+#video7 { position: absolute; top:0; right:0; width:100%; height:100%;  object-fit: fill; z-index: -1;   }
+.titulo_7 {  position: absolute; width:47%; top:31%; left:10%; font-size:6.836vw; color:#b7c900; text-align: center; line-height:13vh; font-weight: 600;  }
+.titulo_7_c {  position: absolute; top:64%; left:16%; font-size:2.441vw; color:#ccc; font-weight: 600; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

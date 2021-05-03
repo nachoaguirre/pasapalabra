@@ -1,0 +1,25 @@
+.screen { width:100%; height:100%; max-width:2048px; max-height:1080px; overflow: hidden; margin: 0; padding: 0; }
+
+
+.letra_correcta:before, .letra_incorrecta:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+.letra_correcta, .letra_incorrecta {border: 1px solid #c2d500;  opacity: 0.5; background: #0a5628; width:9.195%; height:9.195%; }
+
+.turnos_info:before { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+.turnos_info { color:#fff; font-size:2.344vw; padding:0px 3%; position: absolute; top:10%; right:5%; height:9%; /* line-height: 103px; */  }
+
+
+.opcion_radio { display:inline-block; width: 55px; height: 55px; text-align: center; line-height: 54px; border-radius: 50%;   }
+
+
+.opcion_seleccionada { background: #007433; border: 5px solid #b7c900; color: #ffffff; }
+
+
+.titulo_5 {  position: absolute; top:25%; left:13%; font-size:5.859vw; color:#b7c900; font-weight: 600; text-align: center; line-height: 170px; width:35%;  }
+
+.titulo_6 {  position: absolute; width:46%; top:31%; left:12%; font-size:6.836vw; color:#b7c900; text-align: center; line-height: 170px; font-weight: 600;  }
+
+
+.titulo_7 {  position: absolute; width:47%; top:31%; left:10%; font-size:6.836vw; color:#b7c900; text-align: center; line-height: 170px; font-weight: 600;  }
+
+
+.boton { background: #c2d500; border-radius:130px; text-align: center; }
